@@ -1,0 +1,276 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+}
+
+
+.navbar-toggler {
+    position: absolute;
+    right: 10px;
+}
+
+.images {
+    width: 100%;
+    height: 100%;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.image-container .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.overlay h2,
+.overlay p,
+.overlay a {
+    margin: 10px 0;
+}
+
+.overlay a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.overlay a:hover {
+    text-decoration: underline;
+}
+
+.overlay-two {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.overlay-two h2,
+.overlay-two p,
+.overlay-two a {
+    margin: 25px 0;
+}
+
+.overlay-two p {
+    color: #A0A0A0;
+}
+
+.overlay-two a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.overlay-two a:hover {
+    text-decoration: underline;
+}
+
+.image-container {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.row {
+    margin-top: 80px;
+}
+
+.caption {
+    text-align: center;
+    padding: 10px;
+}
+
+.caption h3 {
+    margin-bottom: 10px;
+}
+
+.caption a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.caption a:hover {
+    text-decoration: underline;
+}
+
+.product-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.product-description {
+    text-align: center;
+    color: gray;
+    margin-bottom: 2rem;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-item h5 {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.product-item p {
+    color: gray;
+}
+
+.product-title {
+    margin-top: 115px;
+    font-size: 33px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.product-description {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 17.58px;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+}
+
+.product-item h5 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    color: #A0A0A0;
+}
+
+.product-item p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    color: #A0A0A0;
+}
+
+.line {
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.product-item {
+    margin-top: -70px;
+}
+
+.banner {
+    margin-top: 100px;
+    position: relative;
+    background-image: url(../img/sec-7.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-content {
+    position: relative;
+    z-index: 2;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.banner p {
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.banner a {
+    margin-top: 1rem;
+    padding-bottom: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.banner a:hover {
+    text-decoration: underline;
+}
+
+.sec-8 {
+    width: 100%;
+    height: 100%;
+}
+
+.image-grid{
+    gap: -10px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.custom-spacing {
+    margin-bottom: 45px;
+}
+
+.our{
+    color: #000000;
+}
+
+.our:hover{
+    color: #000000;
+    text-decoration: underline;
+}
